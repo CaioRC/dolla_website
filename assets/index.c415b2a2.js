@@ -104,7 +104,7 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
  @media screen and (max-width: 768px){
    padding: 100px 0;
  }
-`,ve=t.div`
+`,we=t.div`
   display: grid;
   z-index: 1;
   height: 860px;
@@ -114,7 +114,7 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
-`,we=t.div`
+`,ve=t.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
@@ -169,7 +169,7 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
-`,g=n=>{const{id:o,lightBg:r,lightText:c,lightTextDesc:a,topLine:s,headline:l,description:A,buttonLabel:M,imgStart:O,img:$,alt:N,dark:_,primary:R,darkText:W}=n;return console.log(o),e(be,{lightBg:r,id:o,children:e(ve,{children:i(we,{imgStart:O,children:[e(ye,{children:i(Se,{children:[e(ze,{children:s}),e(Le,{lightText:c,children:l}),e(Be,{darkText:W,children:A}),e(Fe,{children:e(j,{to:"home",smooth:!0,duration:500,spy:!0,offset:-80,primary:R,dark:_,children:M})})]})}),e(ke,{children:e(Ie,{children:e(Te,{src:$,alt:N})})})]})})})},Ce=t.nav`
+`,g=n=>{const{id:o,lightBg:r,lightText:c,lightTextDesc:a,topLine:s,headline:l,description:A,buttonLabel:M,imgStart:O,img:$,alt:N,dark:_,primary:R,darkText:W}=n;return console.log(o),e(be,{lightBg:r,id:o,children:e(we,{children:i(ve,{imgStart:O,children:[e(ye,{children:i(Se,{children:[e(ze,{children:s}),e(Le,{lightText:c,children:l}),e(Be,{darkText:W,children:A}),e(Fe,{children:e(j,{to:"home",smooth:!0,duration:500,spy:!0,offset:-80,primary:R,dark:_,children:M})})]})}),e(ke,{children:e(Ie,{children:e(Te,{src:$,alt:N})})})]})})})},Ce=t.nav`
   background: ${({scrollNav:n})=>n?"#000":"transparent"};
   height: 80px;
   margin-top: -80px;
@@ -384,7 +384,7 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
   }
 
 
-`,v=t.img`
+`,w=t.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
@@ -396,13 +396,13 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
   @media screen and (max-width: 480px){
       font-size: 2rem;
   }
-`,w=t.h2`
+`,v=t.h2`
   font-size: 1rem;
   margin-bottom: 10px;
 `,y=t.p`
   font-size: 1rem;
   text-align: center;
-`;var ot="/dolla_website/assets/Office.bf1099b4.svg",rt="/dolla_website/assets/OffRoad.a51c8530.svg",at="/dolla_website/assets/Benefits.2aae3562.svg";const st=()=>i(tt,{id:"services",children:[e(it,{children:"Our Services"}),i(nt,{children:[i(b,{children:[e(v,{src:rt}),e(w,{children:"Reduce expenses"}),e(y,{children:"We Help reduce your fees and increase your overall revenue,"})]}),i(b,{children:[e(v,{src:ot}),e(w,{children:"Virtual Offices"}),e(y,{children:"You can access out platform online anywhere in the world."})]}),i(b,{children:[e(v,{src:at}),e(w,{children:"Premium Benefits"}),e(y,{children:"Unlock our special membership card that returns 5%"})]})]})]}),dt=t.footer`
+`;var ot="/dolla_website/assets/Office.bf1099b4.svg",rt="/dolla_website/assets/OffRoad.a51c8530.svg",at="/dolla_website/assets/Benefits.2aae3562.svg";const st=()=>i(tt,{id:"services",children:[e(it,{children:"Our Services"}),i(nt,{children:[i(b,{children:[e(w,{src:rt}),e(v,{children:"Reduce expenses"}),e(y,{children:"We Help reduce your fees and increase your overall revenue,"})]}),i(b,{children:[e(w,{src:ot}),e(v,{children:"Virtual Offices"}),e(y,{children:"You can access out platform online anywhere in the world."})]}),i(b,{children:[e(w,{src:at}),e(v,{children:"Premium Benefits"}),e(y,{children:"Unlock our special membership card that returns 5%"})]})]})]}),dt=t.footer`
  background-color: #101522;
 
 `,ct=t.div`
@@ -502,7 +502,7 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
     rgba(1,147,86,1) 0%,
     rgba(10 , 201 , 122 , 1) 100%
   );
-`,vt=t.div`
+`,wt=t.div`
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -511,7 +511,7 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
   @media screen and (max-width: 400px){
     height: 80%;
   }
-`,wt=t(p)`
+`,vt=t(p)`
   margin-left: 32px;
   margin-top: 32px;
   text-decoration: none;
@@ -575,4 +575,4 @@ var E=Object.defineProperty;var z=Object.getOwnPropertySymbols;var P=Object.prot
   margin-top: 24px;
   color: #fff;
   font-size: 14px;
-`,Bt=()=>e(bt,{children:i(vt,{children:[e(wt,{to:"/",children:"dolla"}),e(yt,{children:i(kt,{action:"#",children:[e(St,{children:"Sign in to your account"}),e(T,{htmlFor:"for",children:"Email"}),e(C,{type:"email",required:!0}),e(T,{htmlFor:"for",children:"Password"}),e(C,{type:"password",required:!0}),e(zt,{type:"submit",children:"Continue"}),e(Lt,{children:"Forgot password"})]})})]})});function Ft(){return te(),h.exports.useEffect(()=>{window.scrollTo(0,0)}),null}function It(){return i(S,{children:[e(Ft,{}),e(Bt,{})]})}function Tt(){return e(ne,{children:i(ie,{children:[e(B,{path:"/",element:e(gt,{})}),e(B,{path:"/signin",element:e(It,{})})]})})}oe.render(e(re.StrictMode,{children:e(Tt,{})}),document.getElementById("root"));
+`,Bt=()=>e(bt,{children:i(wt,{children:[e(vt,{to:"/",children:"dolla"}),e(yt,{children:i(kt,{action:"#",children:[e(St,{children:"Sign in to your account"}),e(T,{htmlFor:"for",children:"Email"}),e(C,{type:"email",required:!0}),e(T,{htmlFor:"for",children:"Password"}),e(C,{type:"password",required:!0}),e(zt,{type:"submit",children:"Continue"}),e(Lt,{children:"Forgot password"})]})})]})});function Ft(){return te(),h.exports.useEffect(()=>{window.scrollTo(0,0)}),null}function It(){return i(S,{children:[e(Ft,{}),e(Bt,{})]})}function Tt(){return e(ne,{basename:"/dolla_website",children:i(ie,{children:[e(B,{path:"/",element:e(gt,{})}),e(B,{path:"/signin",element:e(It,{})})]})})}oe.render(e(re.StrictMode,{children:e(Tt,{})}),document.getElementById("root"));
