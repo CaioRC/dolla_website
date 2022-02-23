@@ -1,2 +1,2 @@
 # dolla_website
-An institutional site Using ReactJS, TypeScript , Styled Components , React-Scroll and Vite
+An institutional website made in ReactJs using styled Components, Typescript and React-Scroll
